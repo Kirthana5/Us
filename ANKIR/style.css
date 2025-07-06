@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff0f5;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding: 20px;
+}
+
+.title {
+  margin-top: 20px;
+  font-size: 2em;
+  color: #d81b60;
+}
+
+.hand-container {
+  position: relative;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+#hands {
+  width: 300px;
+}
+
+#ring {
+  position: absolute;
+  top: 120px; /* Adjust based on final image */
+  left: 135px; /* Adjust based on final image */
+  width: 50px;
+  display: none;
+}
+
+#message {
+  margin-top: 30px;
+  font-size: 24px;
+  color: #d81b60;
+  display: none;
+}
+
+audio {
+  margin-top: 20px;
+}
